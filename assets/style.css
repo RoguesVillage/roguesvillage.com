@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed&family=Spectral&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Spectral", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    color: #616161;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    line-height: 2.3em;
+}
+
+h2.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    letter-spacing: -.04em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hr {
+    width: 100%;
+    border-bottom: #616161 1px solid;
+    margin: 2rem 0;
+}
+
+.container {
+    width: 66.6667%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.container p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: color .15s ease-out;
+    -moz-transition: color .15s ease-out;
+    -ms-transition: color .15s ease-out;
+    -o-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, .3);
+    -webkit-transition: border-color .15s ease-out, color .15s ease-out;
+    -moz-transition: border-color .15s ease-out, color .15s ease-out;
+    -ms-transition: border-color .15s ease-out, color .15s ease-out;
+    -o-transition: border-color .15s ease-out, color .15s ease-out;
+    transition: border-color .15s ease-out, color .15s ease-out;
+}
+
+a:hover {
+    color: #4d4d4d;
+    border-bottom-color: rgba(0, 0, 0, .8);
+}
+
+.img-split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.img-split .column {
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 1rem;
+}
+
+.img-split p.column {
+    flex: 2;
+}
+
+.img-split img {
+    align-items: center;
+    justify-content: center;
+    max-width: 242px;
+    max-height: 176px;
+}
+
+.container ul {
+    margin-left: 4rem;
+}
